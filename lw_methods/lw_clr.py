@@ -8,6 +8,7 @@ RELEASE NOTES
     Version 3.0 Rewritten in python by Steven Pestana (spestana@uw.edu, Apr 2020)
         adapted from original MATLAB script (from Mark Raleigh, Ryan Currier)
         and changed output to downward longwave radiance rather than emissivities
+    Version 3.1 Bug fixes, code formatting (spestana@tealwaters.com, Jan 2026)
 
 INPUTS
     Ta = air temperature [K]
