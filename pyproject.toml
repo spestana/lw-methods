@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lw-methods"
+version = "0.1.0"
+authors = [
+  { name = "Steven Pestana", email = "steven@tealwaters.com" },
+]
+description = "Downward longwave radiation parameterization methods."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy",
+    "xarray",
+    "pandas",
+]
+
+[project.urls]
+Homepage = "https://github.com/spestana/lw-methods"
+"Bug Tracker" = "https://github.com/spestana/lw-methods/issues"
