@@ -29,7 +29,6 @@ classifiers = [
 dependencies = [
     "numpy",
     "xarray",
-    "pandas",
 ]
 
 [project.urls]
